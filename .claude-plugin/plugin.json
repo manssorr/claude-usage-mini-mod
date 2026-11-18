@@ -1,0 +1,1 @@
+{ "name": "usage-mini", "version": "0.1.0", "description": "Two-line band: 5h and 7d limits, context fill, and prompt cache warmth.", "types": "./types/index.d.ts" }
