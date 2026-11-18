@@ -2,6 +2,8 @@
 
 A Claude Code mod that puts a small band above the prompt box.
 
+![The usage-mini band above the prompt box in the Claude desktop app: 5h and 7d limits, context fill, and cache time left](docs/band.png)
+
 - Shows the 5-hour and 7-day plan limits, the context fill, and the prompt cache state.
 - Cold-cache guard: when the prompt cache is cold (no reply for 1 hour) and the context is 50k tokens or more, the mod holds your prompt before it goes out. Resending a large cold context costs much more than a warm one.
 - The band then gives you four choices:
